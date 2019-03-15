@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{148ADEDF-AC87-4844-B099-D4C60DE1BA3E}</ProjectGuid>
+    <ProjectGuid>{C9ACE9E1-8AA6-48A9-BCA5-4C2EF6FB6C2D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Kanban</RootNamespace>
     <AssemblyName>Kanban</AssemblyName>

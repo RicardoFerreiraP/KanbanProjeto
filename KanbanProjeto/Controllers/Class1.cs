@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models
+namespace Controllers
 {
-    class Atividade
+    public class Class1
     {
-        [Key]
-        public int IdAtividade { get; set; }
     }
 }
