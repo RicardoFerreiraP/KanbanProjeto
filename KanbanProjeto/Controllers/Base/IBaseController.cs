@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models
+namespace Controllers.Base
 {
-    public class Class1
+    interface IBaseController<T> where T: class
     {
+        int inserirAtividade(T entity);
     }
 }
