@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Center" Height="23" Margin="40,10,32,0" TextWrapping="Wrap" Text="Kanban Project" TextAlignment="Center" VerticalAlignment="Top" Width="720"/>
+        <Label Content="A Fazer" HorizontalAlignment="Left" Margin="110,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Em Processo" HorizontalAlignment="Left" Margin="365,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Concluída" HorizontalAlignment="Left" Margin="625,78,0,0" VerticalAlignment="Top"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="40,71,0,0" VerticalAlignment="Top" Width="200">
+            <Button Content="+" Margin="165,9,9,303" RenderTransformOrigin="-0.875,2.25"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="300,70,0,0" VerticalAlignment="Top" Width="200"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="555,70,0,0" VerticalAlignment="Top" Width="200"/>
+        <DataGrid HorizontalAlignment="Left" Height="300" Margin="40,109,0,0" VerticalAlignment="Top" Width="200"/>
+        <DataGrid HorizontalAlignment="Left" Height="300" Margin="300,109,0,0" VerticalAlignment="Top" Width="200"/>
+        <DataGrid HorizontalAlignment="Left" Height="300" Margin="555,109,0,0" VerticalAlignment="Top" Width="200"/>
+
     </Grid>
 </Window>
