@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFView.InserirAtividade"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFView"
+        mc:Ignorable="d"
+        Title="Window1" Height="350" Width="580">
+    <Grid>
+        <Label x:Name="label" HorizontalAlignment="Left" Height="30" Margin="40,10,0,0"  Content="Inserir Nova Atividade" VerticalAlignment="Top" Width="155"/>
+        <ComboBox HorizontalAlignment="Left" Height="35" Margin="355,73,0,0" VerticalAlignment="Top" Width="175"/>
+        <Label x:Name="label1" HorizontalAlignment="Left" Height="23" Margin="355,45,0,0" Content="Atividade depende:" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="195" Margin="40,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="310"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="40,45,0,0" TextWrapping="Wrap" Text="Descrição:" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Salvar" HorizontalAlignment="Left" Margin="355,248,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="455,248,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
