@@ -29,5 +29,11 @@ namespace WPFView
         {
 
         }
+
+        private void buttonInserirAtividade(object sender, RoutedEventArgs e)
+        {
+            InserirAtividade inserirAtividade = new InserirAtividade();
+            inserirAtividade.Show();
+        }
     }
 }

@@ -12,11 +12,11 @@
         <Label Content="Em Processo" HorizontalAlignment="Left" Margin="365,78,0,0" VerticalAlignment="Top"/>
         <Label Content="Concluída" HorizontalAlignment="Left" Margin="625,78,0,0" VerticalAlignment="Top"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="40,71,0,0" VerticalAlignment="Top" Width="200">
-            <Button Content="+" Margin="165,9,9,303" RenderTransformOrigin="-0.875,2.25"/>
+            <Button x:Name="inserirAtividade" Content="+" Margin="168,6,6,306" RenderTransformOrigin="-0.875,2.25" Click="buttonInserirAtividade"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="300,70,0,0" VerticalAlignment="Top" Width="200"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="555,70,0,0" VerticalAlignment="Top" Width="200"/>
-        <DataGrid HorizontalAlignment="Left" Height="300" Margin="40,109,0,0" VerticalAlignment="Top" Width="200"/>
+        <DataGrid HorizontalAlignment="Left" Height="300" Margin="40,110,0,0" VerticalAlignment="Top" Width="200"/>
         <DataGrid HorizontalAlignment="Left" Height="300" Margin="300,109,0,0" VerticalAlignment="Top" Width="200"/>
         <DataGrid HorizontalAlignment="Left" Height="300" Margin="555,109,0,0" VerticalAlignment="Top" Width="200"/>
 
