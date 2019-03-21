@@ -29,17 +29,5 @@ namespace WPFView
         {
 
         }
-
-        private void adicionarAtividade(object sender, RoutedEventArgs e)
-        {
-            InserirAtividade inserirAtividade = new InserirAtividade();
-            inserirAtividade.Show();
-            
-        }
-
-        private void AddAtividade_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

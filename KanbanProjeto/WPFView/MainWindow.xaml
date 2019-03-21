@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFView"
         mc:Ignorable="d"
-        Title="MainWindow" Height="480" Width="800">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label x:Name="label" HorizontalAlignment="Center" Height="23" Margin="40,10,32,0" Content="Kanban Project"  VerticalAlignment="Top" Width="720"/>
+        <TextBox HorizontalAlignment="Center" Height="23" Margin="40,10,32,0" TextWrapping="Wrap" Text="Kanban Project" TextAlignment="Center" VerticalAlignment="Top" Width="720"/>
         <Label Content="A Fazer" HorizontalAlignment="Left" Margin="110,78,0,0" VerticalAlignment="Top"/>
         <Label Content="Em Processo" HorizontalAlignment="Left" Margin="365,78,0,0" VerticalAlignment="Top"/>
         <Label Content="Concluída" HorizontalAlignment="Left" Margin="625,78,0,0" VerticalAlignment="Top"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="40,71,0,0" VerticalAlignment="Top" Width="200">
-            <Button Content="+" x:Name="addAtividade" Margin="165,9,9,303" RenderTransformOrigin="-0.875,2.25" Click="adicionarAtividade"/>
+            <Button Content="+" Margin="165,9,9,303" RenderTransformOrigin="-0.875,2.25"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="300,70,0,0" VerticalAlignment="Top" Width="200"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="339" Margin="555,70,0,0" VerticalAlignment="Top" Width="200"/>
