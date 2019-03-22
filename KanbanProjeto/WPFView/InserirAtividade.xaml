@@ -11,7 +11,7 @@
         <ComboBox HorizontalAlignment="Left" Height="35" Margin="355,73,0,0" VerticalAlignment="Top" Width="175"/>
         <Label x:Name="label1" HorizontalAlignment="Left" Height="23" Margin="355,45,0,0" Content="Atividade depende:" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="195" Margin="40,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="310"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="40,45,0,0" TextWrapping="Wrap" Text="Descrição:" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblDescricao" HorizontalAlignment="Left" Height="23" Margin="40,45,0,0"  Content="Descrição:" VerticalAlignment="Top" Width="120"/>
         <Button Content="Salvar" HorizontalAlignment="Left" Margin="355,248,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Cancelar" HorizontalAlignment="Left" Margin="455,248,0,0" VerticalAlignment="Top" Width="75"/>
 
